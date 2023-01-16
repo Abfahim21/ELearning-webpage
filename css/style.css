@@ -8,3 +8,58 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+.logo h4 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+    font-style: normal;
+}
+nav a {
+    text-decoration: none;
+    padding: 15px;
+}
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 110px;
+}
+.header {
+    padding: 25px;
+}
+.hero-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.hero-texts h4 {
+    color: rgba(99, 155, 109, 1);
+    margin-bottom: 30px;
+}
+
+.hero-texts h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.hero-texts h3 {
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 35px;
+}
+
+button.hero-button {
+    color:rgba(43, 120, 139, 1);
+    background: rgba(195, 220, 227, 1);
+    border: 1px solid rgba(195, 220, 227, 1);
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    }
