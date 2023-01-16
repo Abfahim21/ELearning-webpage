@@ -17,6 +17,10 @@ body {
 nav a {
     text-decoration: none;
     padding: 15px;
+    color: black;
+}
+nav a:hover {
+    color: rgba(99, 155, 109, 1);
 }
 .nav-wrapper {
     display: flex;
@@ -91,8 +95,66 @@ button.hero-button {
 .girl-texts h3 {
     font-size: 18px;
     color: rgba(117, 117, 117, 1);
+    margin-bottom: 35px;
 }
 .girl-texts h4 {
     color: rgba(99, 155, 109, 1);
     margin-bottom: 20px;
+}
+button.mini-games-button {
+    color: rgba(43, 120, 139, 1);
+    background: rgba(195, 220, 227, 1);
+    border: 1px solid rgba(195, 220, 227, 1);
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+}
+.girl-reading {
+    padding-bottom: 140px;
+}
+.voca-image img {
+    width: 580px;
+    height: 474px;
+}
+
+.vocabulary-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.voca-texts h4 {
+    color: rgba(99, 155, 109, 1);
+    margin-bottom: 20px;
+}
+
+.voca-texts h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.voca-texts h3 {
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 35px;
+}
+
+button.textbook {
+    color: rgba(43, 120, 139, 1);
+    background: rgba(195, 220, 227, 1);
+    border: 1px solid rgba(195, 220, 227, 1);
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+}
+.vocabulary {
+    padding-bottom: 140px;
 }
