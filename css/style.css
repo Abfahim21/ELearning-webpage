@@ -37,7 +37,7 @@ nav a {
 
 .hero-texts h4 {
     color: rgba(99, 155, 109, 1);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .hero-texts h1 {
@@ -62,4 +62,37 @@ button.hero-button {
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
-    }
+}
+
+.hero {
+        padding-top: 70px;
+        padding-bottom: 140px;
+}
+
+.girl-image img {
+    width: 580px;
+    height: 445px;
+}
+
+.girl-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.girl-texts h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.girl-texts h3 {
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+}
+.girl-texts h4 {
+    color: rgba(99, 155, 109, 1);
+    margin-bottom: 20px;
+}
