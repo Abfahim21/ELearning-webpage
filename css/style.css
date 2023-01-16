@@ -5,23 +5,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .logo h4 {
     font-size: 24px;
     line-height: 24px;
     font-weight: 800;
     font-style: normal;
 }
+
 nav a {
     text-decoration: none;
     padding: 15px;
     color: black;
 }
+
 nav a:hover {
     color: rgba(99, 155, 109, 1);
 }
+
 .nav-wrapper {
     display: flex;
     flex-direction: row;
@@ -31,6 +36,7 @@ nav a:hover {
 .header {
     padding: 25px;
 }
+
 .hero-wrapper {
     display: flex;
     flex-direction: row;
@@ -97,10 +103,12 @@ button.hero-button {
     color: rgba(117, 117, 117, 1);
     margin-bottom: 35px;
 }
+
 .girl-texts h4 {
     color: rgba(99, 155, 109, 1);
     margin-bottom: 20px;
 }
+
 button.mini-games-button {
     color: rgba(43, 120, 139, 1);
     background: rgba(195, 220, 227, 1);
@@ -112,9 +120,11 @@ button.mini-games-button {
     font-style: normal;
     cursor: pointer;
 }
+
 .girl-reading {
     padding-bottom: 140px;
 }
+
 .voca-image img {
     width: 580px;
     height: 474px;
