@@ -17,6 +17,10 @@ body {
     font-style: normal;
 }
 
+.logo h4:hover {
+    color: rgba(99, 155, 109, 1);
+}
+
 nav a {
     text-decoration: none;
     padding: 15px;
