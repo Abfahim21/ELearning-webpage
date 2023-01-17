@@ -78,6 +78,11 @@ button.hero-button {
     cursor: pointer;
 }
 
+button.hero-button:hover {
+    color: rgba(195, 220, 227, 1);
+    background: rgba(43, 120, 139, 1);
+}
+
 .hero {
         padding-top: 70px;
         padding-bottom: 140px;
@@ -124,6 +129,10 @@ button.mini-games-button {
     font-style: normal;
     cursor: pointer;
 }
+button.mini-games-button:hover {
+    color: rgba(195, 220, 227, 1);
+    background: rgba(43, 120, 139, 1);
+}
 
 .girl-reading {
     padding-bottom: 140px;
@@ -168,6 +177,10 @@ button.textbook {
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
+}
+button.textbook:hover {
+    color: rgba(195, 220, 227, 1);
+    background: rgba(43, 120, 139, 1);
 }
 .vocabulary {
     padding-bottom: 140px;
