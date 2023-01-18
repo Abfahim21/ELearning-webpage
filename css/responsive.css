@@ -1,30 +1,65 @@
 /* Smartphones (portrait) */
 @media only screen and (max-width: 320px) {
-    /* Styles */
-  }
-  
-  /* iPads (portrait and landscape)  */
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Styles */
-    .nav-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: stretch;
-        gap: 120px;
-    }
-    .hero-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
-        align-content: flex-start;
-        flex-wrap: wrap;
-    }
-  }
+  /* Styles */
+}
 
-  /* Desktops and laptops  */
-  @media only screen and (min-width: 1224px) {
-    /* Styles */
-    
+/* iPads (portrait and landscape)  */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .nav-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: stretch;
+      gap: 350px;
   }
+  .logo h4 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+    font-style: normal;
+    padding-left: 50px;
+}
+  .hero-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      align-content: flex-start;
+      flex-wrap: wrap;
+  }
+  .hero-texts {
+      padding-left: 50px;
+  }
+  .hero-image {
+      padding-left: 50px;
+  }
+  .girl-wrapper {
+    display: flex;
+    gap: 30px;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .girl-image {
+    padding-left: 50px;
+  }
+  .vocabulary-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      align-content: flex-start;
+      flex-wrap: wrap;
+  }
+  .voca-image {
+    padding-left: 50px;
+  }
+}
+
+/* Desktops and laptops  */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+  
+}
