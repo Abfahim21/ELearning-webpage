@@ -1,0 +1,30 @@
+/* Smartphones (portrait) */
+@media only screen and (max-width: 320px) {
+    /* Styles */
+  }
+  
+  /* iPads (portrait and landscape)  */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: stretch;
+        gap: 120px;
+    }
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+  }
+
+  /* Desktops and laptops  */
+  @media only screen and (min-width: 1224px) {
+    /* Styles */
+    
+  }
