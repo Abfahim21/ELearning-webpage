@@ -29,10 +29,10 @@
       flex-wrap: wrap;
   }
   .hero-texts {
-      padding-left: 50px;
+      padding-left: 70px;
   }
   .hero-image {
-      padding-left: 50px;
+      padding-left: 70px;
   }
   .girl-wrapper {
     display: flex;
@@ -42,16 +42,22 @@
     flex-direction: column-reverse;
   }
   .girl-image {
-    padding-left: 50px;
+    padding-left: 70px;
+  }
+  .girl-texts {
+    padding-left: 70px;
   }
   .vocabulary-wrapper {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 30px;
       align-content: flex-start;
       flex-wrap: wrap;
+      gap: 30px;
+  }
+  .voca-texts {
+    padding-left: 50px;
   }
   .voca-image {
     padding-left: 50px;
