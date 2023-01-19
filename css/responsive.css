@@ -10,6 +10,26 @@
     flex-wrap: wrap;
     padding-left: 50px;
 }
+.girl-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 50px;
+}
+.vocabulary-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 50px;
+}
+.voca-image img {
+  width: 510px;
+  height: 360px;
+}
 }
 
 /* iPads (portrait and landscape)  */
