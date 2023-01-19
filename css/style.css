@@ -131,6 +131,7 @@ button.mini-games-button {
     font-style: normal;
     cursor: pointer;
 }
+
 button.mini-games-button:hover {
     color: rgba(195, 220, 227, 1);
     background: rgba(43, 120, 139, 1);
@@ -180,11 +181,64 @@ button.textbook {
     font-style: normal;
     cursor: pointer;
 }
+
 button.textbook:hover {
     color: rgba(195, 220, 227, 1);
     background: rgba(43, 120, 139, 1);
 }
+
 .vocabulary {
     padding-bottom: 140px;
     background-color: rgba(246, 245, 244, 1);
+}
+
+.progress-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.progress-img img {
+    width: 700px;
+}
+
+.progress-text h4 {
+    color: rgba(99, 155, 109, 1);
+    margin-bottom: 20px;
+}
+
+.progress-text h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.progress-text h3 {
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 35px;
+}
+
+button.statics-button {
+    color: rgba(43, 120, 139, 1);
+    background: rgba(195, 220, 227, 1);
+    border: 1px solid rgba(195, 220, 227, 1);
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+}
+
+button.statics-button:hover {
+    color: rgba(195, 220, 227, 1);
+    background: rgba(43, 120, 139, 1);
+}
+
+.progress {
+    padding-bottom: 140px;
 }
