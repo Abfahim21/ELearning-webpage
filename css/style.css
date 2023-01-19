@@ -196,8 +196,9 @@ button.textbook:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     gap: 200px;
+    align-items: center;
+    padding-top: 70px;
 }
 
 .progress-img img {
