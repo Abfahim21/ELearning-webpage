@@ -19,6 +19,7 @@ body {
 
 .logo h4:hover {
     color: rgba(99, 155, 109, 1);
+    transition: 0.2s ease-in;
 }
 
 nav a {
