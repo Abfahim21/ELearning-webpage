@@ -27,8 +27,18 @@ nav a {
     color: black;
 }
 
+nav ul li {
+    list-style-type: none;
+}
+
+ul.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 nav a:hover {
     color: rgba(99, 155, 109, 1);
+    transition: 0.2s ease-in;
 }
 
 .nav-wrapper {
@@ -77,6 +87,7 @@ button.hero-button {
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 button.hero-button:hover {
@@ -130,6 +141,7 @@ button.mini-games-button {
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 button.mini-games-button:hover {
@@ -180,6 +192,7 @@ button.textbook {
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 button.textbook:hover {
@@ -233,6 +246,7 @@ button.statics-button {
     font-weight: 500;
     font-style: normal;
     cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 button.statics-button:hover {
