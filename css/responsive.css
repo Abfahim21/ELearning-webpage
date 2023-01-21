@@ -91,6 +91,10 @@
   .voca-image {
     padding-left: 50px;
   }
+
+  .hamburger {
+    display: block;
+  }
 }
 
 /* Desktops and laptops  */
