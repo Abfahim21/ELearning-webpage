@@ -37,6 +37,16 @@ ul.nav-menu {
     flex-direction: row;
     gap: 10px;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
 nav a:hover {
     color: rgba(99, 155, 109, 1);
     transition: 0.2s ease-in;
@@ -61,7 +71,7 @@ nav a:hover {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: black;
 }
 
 .header {
