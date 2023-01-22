@@ -15,6 +15,7 @@ body {
     line-height: 24px;
     font-weight: 800;
     font-style: normal;
+    cursor: pointer;
 }
 
 .logo h4:hover {
