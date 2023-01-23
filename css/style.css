@@ -132,6 +132,7 @@ button.hero-button:hover {
 .girl-image img {
     width: 580px;
     height: 445px;
+    padding-top: 50px;
 }
 
 .girl-wrapper {
@@ -229,7 +230,7 @@ button.textbook:hover {
 }
 
 .vocabulary {
-    padding-bottom: 140px;
+    padding-bottom: 100px;
     background-color: rgba(246, 245, 244, 1);
 }
 
