@@ -36,10 +36,9 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   .nav-wrapper {
-      display: flex;
-      flex-direction: row;
-      justify-content: stretch;
-      gap: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .logo h4 {
     font-size: 24px;
@@ -48,6 +47,18 @@
     font-style: normal;
     padding-left: 50px;
 }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+  }
+  ul.nav-menu {
+    display: none;
+  }
   .hero-wrapper {
       display: flex;
       flex-direction: column;
