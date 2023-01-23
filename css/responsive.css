@@ -38,7 +38,10 @@
   .nav-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70%;
   }
   .logo h4 {
     font-size: 24px;
